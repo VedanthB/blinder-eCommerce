@@ -9,6 +9,7 @@ import Wishlist from "./routes/Wishlist";
 import Login from "./routes/Login";
 import Signup from "./routes/Signup";
 import Header from "./components/global/header/Header";
+import Footer from "./components/global/footer/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </Routes>
 
       {/* footer */}
+      <Footer />
     </div>
   );
 }
