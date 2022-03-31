@@ -1,19 +1,20 @@
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
+
 import Shop from "./routes/Shop";
 import Home from "./routes/Home";
 import Cart from "./routes/Cart";
 import Wishlist from "./routes/Wishlist";
 import Login from "./routes/Login";
 import Signup from "./routes/Signup";
+import Header from "./components/global/header/Header";
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
       {/* header / nav */}
-
+      <Header />
       {/* routes */}
       <Routes>
         <Route path="/" element={<Home />} />
