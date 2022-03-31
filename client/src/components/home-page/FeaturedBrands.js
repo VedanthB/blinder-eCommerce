@@ -4,6 +4,7 @@ import santaCruzImg from "../../assets/santa-cruz-brand.png";
 import urbanMonkeyImg from "../../assets/urban-money-brand.png";
 import vansImg from "../../assets/vans-brand.png";
 import thrasherImg from "../../assets/thrasher-brand.png";
+import { Link } from "react-router-dom";
 
 function FeaturedBrands() {
   return (
@@ -19,22 +20,26 @@ function FeaturedBrands() {
         style={{ maxWidth: "60rem", margin: "auto", gap: "1rem" }}
         className="grid grid-cols-4 w-full"
       >
-        <div
+        <Link
+          to="/shop"
           style={{ backgroundImage: `url(${santaCruzImg})` }}
-          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card"
-        ></div>
-        <div
+          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card hover-active-card "
+        ></Link>
+        <Link
+          to="/shop"
           style={{ backgroundImage: `url(${vansImg})` }}
-          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card"
-        ></div>
-        <div
+          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card hover-active-card "
+        ></Link>
+        <Link
+          to="/shop"
           style={{ backgroundImage: `url(${urbanMonkeyImg})` }}
-          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card"
-        ></div>
-        <div
+          className="h-52 w-52  text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card hover-active-card "
+        ></Link>
+        <Link
+          to="/shop"
           style={{ backgroundImage: `url(${thrasherImg})` }}
-          className="h-52 w-52 text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card"
-        ></div>
+          className="h-52 w-52 text-white rounded-2xl cursor-pointer flex justify-center align-items-center home-page-brand-card hover-active-card "
+        ></Link>
       </div>
     </div>
   );
