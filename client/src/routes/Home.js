@@ -9,26 +9,26 @@ function Home() {
     <div className="relative" style={{ top: "5rem" }}>
       <Banner />
 
-      <div class="spacer-3rem"></div>
-      <div class="spacer-3rem"></div>
-      <div class="spacer-3rem"></div>
+      <div className="spacer-3rem"></div>
+      <div className="spacer-3rem"></div>
+      <div className="spacer-3rem"></div>
 
       <main>
         <FeaturedCategories />
 
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
 
         <FeaturedBrands />
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
 
         <VideoBanner />
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
-        <div class="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
+        <div className="spacer-3rem"></div>
       </main>
     </div>
   );
